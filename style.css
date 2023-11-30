@@ -649,7 +649,7 @@ h2 span {
 }
 
 .logo samp {
-    font-family: var(--titulos);
+    font-style: italic;
     color: var(--azulclaro);
 }
 
