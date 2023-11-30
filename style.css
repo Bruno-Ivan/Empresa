@@ -606,27 +606,23 @@ h2 span {
     font-size: 3.5rem;
 }
 
-@media (min-width: 768px) {
-
-    /* Estilos para el contenedor del pie de página */
-    .footer {
-        color: white;
-        /* Color del texto en el pie de página */
-        padding: 1.7rem;
-        /* Espaciado interno del pie de página */
-        text-align: center;
-        /* Alineación del texto en el centro */
-    }
-
-    .footer-p {
-        color: #07070A;
-        margin: 0;
-        /* Elimina el margen predeterminado del párrafo */
-        text-align: center;
-        word-wrap: break-word;
-    }
+/* Estilos para el contenedor del pie de página */
+.footer {
+    color: white;
+    /* Color del texto en el pie de página */
+    padding: 1.7rem;
+    /* Espaciado interno del pie de página */
+    text-align: center;
+    /* Alineación del texto en el centro */
 }
 
+.footer-p {
+    color: #07070A;
+    margin: 0;
+    /* Elimina el margen predeterminado del párrafo */
+    text-align: center;
+    word-wrap: break-word;
+}
 
 .logo,
 .footer p {
@@ -643,10 +639,25 @@ h2 span {
 .logo h2 {
     margin: 0;
     color: #07070A;
-
 }
 
 .logo samp {
     font-family: var(--titulos);
     color: var(--azulclaro);
+}
+
+/* Media Query para pantallas de escritorio */
+@media screen and (min-width: 768px) {
+    .logo,
+    .footer p {
+        margin: 0 10rem;
+    }
+}
+
+/* Media Query para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    .logo,
+    .footer p {
+        margin: 0;
+    }
 }
