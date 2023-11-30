@@ -426,6 +426,7 @@ h2 span {
 .texto-nosotros p {
     font-size: 1.8rem;
     text-decoration: center;
+    color: #07070A;
 }
 
 @media (min-width: 768px) {
