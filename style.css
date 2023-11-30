@@ -609,6 +609,9 @@ h2 span {
     resize: none;
     font-size: 3.5rem;
 }
+.input-contacto input[type="submit"] {
+    width: auto;
+}
 
 /* Estilos para el contenedor del pie de página */
 .footer {
