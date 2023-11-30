@@ -227,7 +227,7 @@ h2 span {
 }
 
 .hamburguesa span {
-    width: 5rem;
+    width: 3rem;
     height: 1rem;
     border: 3px solid white;
     background-color: var(--asuloscuro);
